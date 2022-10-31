@@ -1,0 +1,286 @@
+*{
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+svg{
+    height: 0px;
+    width: 0px;
+}
+.cabecalho{
+    background-color: #fdfc32;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    width: 100vw;
+    justify-content: space-between;
+}
+.text-bb{
+    display: flex;
+    flex-direction: row;
+}
+.icon-bb{
+    height: 45px;
+    width: 45px;
+}
+.div-bb{
+    margin-left: 120px;
+}
+.text-cabecalho{
+    font-size: 20px;
+    color: blue;
+    font-style: sans-serif;
+}
+.img-first{
+    width: 100vw;
+    height: 100vh;
+    display:none;
+}
+.main{
+    height: 100vh;
+    background: center;
+    background-image: url("https://cdn.bb.com.br/wp-content/uploads/2022/07/Banner_Topo_HeaderContCorrentBB_1920_664px-min-min.jpg");
+}
+.espacamento-header{
+    height: 60px;
+}
+.icon-home{
+    height: 15px;
+    margin-right:10px;
+}
+.campanhas-contas{
+    margin-top: calc(50vh - 250px);
+    display: flex;
+    flex-direction: column;
+}
+.div-text-campanhas{
+    display: flex;
+}
+.text-campanhas{
+    text-decoration: none;
+    color: white;
+}
+.espacamento{
+   margin-left: 5px; 
+}
+.links:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.text-conta-corrente{
+    color: #fdfc32;
+    font-size: 80px;
+    font-family:Trebuchet MS, sans-serif;
+    margin-top:10px;
+}
+.text-abertura-digital{
+    margin-top: 15px;
+    font-family: system-ui;
+    font-size: 22px;
+    color: white;
+    font-weight: 400;
+}
+.div-img-qr-code{
+    height: 100px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    width: 100px;
+    justify-content: center;
+}
+.img-qr-code{
+    height:90px;
+    width:90px;
+}
+.qr{
+    display: flex;
+    margin-top: 30px;
+}
+.text-qr{
+    background-color: #fdfc32;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 180px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.qr-text{
+    text-align: initial;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: midnightblue;
+    font-size: 17px;
+}
+.continue-navegando{
+    height: 70px;
+    align-items: center;
+    display: flex;
+    width: 80vw;
+    margin-top: 40px;
+    justify-content: center;
+}
+.div-svg{
+
+}
+.text-continue{
+    color: white;
+    font-size: 18px;
+}
+.div-text-continue{
+    margin-left: 15px;
+}
+.svg-navegar{
+    border-radius: 25px;
+    height: 40px;
+    width: 40px;
+}
+.div-cellphone{
+    margin-top: 120px;
+    margin-left: 9vw;
+}
+.div-text-beneficios{
+    margin-top: 30px;
+    margin-left: 9vw;
+}
+.text-aproveite-beneficios{
+    color: #FA796D;
+    font-size: 50px;
+    width: 800px;
+    font-family:Trebuchet MS, sans-serif;
+}
+.espacamento-beneficios{
+    margin-top: 20px;
+    background-color: #FA796D;
+    height: 2px;
+    width: 150px;
+}
+.div-text-descricao-beneficios{
+    margin-left: 9vw;
+    color:#7A7A7A;
+    font-size: 20px;
+    width: 850px;
+    font-family:Trebuchet MS, sans-serif;
+    margin-top: 30px;
+}
+.div-title-abrir-conta{
+    margin-top: 80px;
+    font-family:Trebuchet MS, sans-serif;
+    margin-left: 9vw;
+    font-size: 50px;
+    color: #3d5aff;
+}
+.espacamento-abrir-conta{
+    background-color: #3d5aff;
+    height: 2px;
+    margin-left: 9vw;
+    width: 150px;
+    margin-top: 20px;
+}
+.div-abrir-conta{
+    display: flex;
+    margin-top: 45px;
+    flex-direction: row;
+    align-items: center;
+}
+.img-conta{
+    width: 100px;
+    height: 100px;
+}
+.title-conta{
+    margin-top: 15px;
+    font-size: 30px;
+    color: #3d5aff;
+    font-family:Trebuchet MS, sans-serif;
+    font-weight:bold;
+}
+.text-conta{
+    color: #767a86;
+    font-size: 20px;
+    margin-top: 10px;
+    width: 300px;
+    text-align: center;
+    font-family:Trebuchet MS, sans-serif;
+}
+.div-rapido{
+    width: 33.33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-seguro{
+    width: 33.33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.div-pratico{
+    width: 33.33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.passos-conta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    width: 80vw;
+    margin-top: 120px;
+    border-radius: 20px;
+    margin-left: 10vw;
+    background-color: #7358c8;
+}
+.title-passos-conta{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    color: #fdfc32;
+    font-family:Trebuchet MS, sans-serif;
+}
+.text-title-passos-conta{
+    margin-top: 30px;
+}
+.espacamento-passos-conta{
+    background-color: #fdfc32;
+    height: 2px;
+    width: 150px;
+    margin-top: 25px;
+}
+.title-passo{
+    margin-top: 50px;
+    color: #fdfc32;
+    font-family:Trebuchet MS, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+.passos{
+    display: flex;
+    flex-direction: row;
+}
+.text-passo{
+    text-align: center;
+    width: 230px;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+@media only screen and (min-width: 765px) {   
+    .campanhas-contas{
+        margin-left: 15px;
+    }
+    .div-text-campanhas{
+        margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 1055px) {   
+    .campanhas-contas{
+        margin-left: 9vw;
+    }
+    .div-text-campanhas{
+        margin-left: 10px;
+    }
+}
